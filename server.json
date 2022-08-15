@@ -7,6 +7,14 @@
       "category": "Venda",
       "price": 14000,
       "createdAt": "2022-08-15T08:21:31.132Z"
+    },
+    {
+      "id": 2,
+      "description": "Banco de dados",
+      "type": "outcome",
+      "category": "Gastos pontuais",
+      "price": 5000,
+      "createdAt": "2022-07-17T08:21:31.132Z"
     }
   ]
 }
