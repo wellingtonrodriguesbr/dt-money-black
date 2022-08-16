@@ -15,6 +15,22 @@
       "category": "Gastos pontuais",
       "price": 5000,
       "createdAt": "2022-07-17T08:21:31.132Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2022-08-16T09:39:05.442Z",
+      "id": 3
+    },
+    {
+      "description": "Supermercado",
+      "price": 500,
+      "category": "Compras",
+      "type": "outcome",
+      "createdAt": "2022-08-16T09:56:38.951Z",
+      "id": 4
     }
   ]
 }
