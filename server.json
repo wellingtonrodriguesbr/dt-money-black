@@ -31,6 +31,14 @@
       "type": "outcome",
       "createdAt": "2022-08-16T09:56:38.951Z",
       "id": 4
+    },
+    {
+      "description": "Cadeira Gamer",
+      "price": 2000,
+      "category": "Escritório",
+      "type": "outcome",
+      "createdAt": "2022-08-17T08:58:38.618Z",
+      "id": 5
     }
   ]
 }
