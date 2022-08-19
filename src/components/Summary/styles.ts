@@ -6,15 +6,17 @@ export const SummaryContainer = styled.section`
   margin: 0 auto;
   padding: 0 1.5rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(100%, 1fr));
-  gap: 2rem;
-  margin-top: -5rem;
   overflow-x: auto;
+  scroll-snap-type: x proximity;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   &::-webkit-scrollbar {
     display: none;
   }
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, minmax(max-content, 1fr));
+  gap: 2rem;
+  margin-top: -5rem;
 
   @media (max-width: 768px) {
     gap: 0.5rem;
